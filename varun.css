@@ -1,0 +1,98 @@
+
+html{
+    font-size: 62.5%;
+
+}
+
+.mainPart{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+}
+#image{
+    height: 25rem; 
+    width: 25rem;
+    border-radius: 50%;
+    margin-left: .5rem;
+    margin-right: .5rem;
+    margin-top: .5rem;
+}
+
+.contact{
+    text-decoration: none;
+}
+
+.contact1{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+}
+
+.main{
+    background-color: rgb(136, 101, 57);
+    display: flex;
+    justify-content: center;
+    border: .3rem;
+    border-radius: .5rem;
+}
+
+.innerTable{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 100%;
+    width: 100%;
+}
+
+#name{
+    color: rgb(1, 48, 1);
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+h1{
+    font-size: 40px;
+}
+
+#name1{
+    background-color: rgb(88, 116, 141);
+}
+
+.headPoint{
+    background-color: rgb(142 93 155);
+    color: black;
+    border-radius: .5rem;
+    width: 20rem;
+    display: flex;
+    justify-content: center;
+}
+
+.innerheadPoint{
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    border-radius: .5rem;
+}
+
+@media(max-width:998px){
+    html{
+        font-size: 55%;
+    }
+}
+
+@media(max-width:768px){
+    html{
+        font-size: 45%;
+    }
+}
+
+@media(max-width:568px){
+    html{
+        font-size: 35%;
+    }
+
+}
